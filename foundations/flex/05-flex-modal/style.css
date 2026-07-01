@@ -54,16 +54,61 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+
 }
 
 button.continue {
+  display: flex;
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
 }
 
 button.cancel {
+  display: flex;
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.btns {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.ctn-btn {
+  display: flex;
+  padding: 2px;
+}
+
+.can-btn {
+  display: flex;
+  padding: 2px;
+}
+
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.icon-logo {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+}
+
+.header-text {
+  display: flex;
+  align-items: flex-start;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.header.close {
+  display: flex;
+  align-items: flex-start;
+}
+
