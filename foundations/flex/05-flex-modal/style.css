@@ -54,61 +54,45 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
-
 }
 
 button.continue {
-  display: flex;
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
 }
 
 button.cancel {
-  display: flex;
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
 }
 
-.btns {
+.modal {
   display: flex;
-  justify-content: flex-start;
   padding: 10px;
 }
 
-.ctn-btn {
-  display: flex;
-  padding: 2px;
-}
 
-.can-btn {
-  display: flex;
-  padding: 2px;
-}
-
-
-.modal {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.icon-logo {
-  display: flex;
+.content {
   padding: 8px;
-  align-items: center;
+  margin-left: 10px;
 }
 
-.header-text {
+.top-row {
   display: flex;
-  align-items: flex-start;
-  font-size: 17px;
-  font-weight: 900;
+  justify-content: space-between;
 }
 
-.header.close {
-  display: flex;
-  align-items: flex-start;
+.icon-align {
+  padding: 10px;
 }
 
+.header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text {
+  padding-bottom: 10px;
+}
